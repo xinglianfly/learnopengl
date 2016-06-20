@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		3178136E1D178257008A5DC9 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 3178136D1D178257008A5DC9 /* main.c */; };
+		317813751D1798BF008A5DC9 /* libglfw3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 317813741D1798BF008A5DC9 /* libglfw3.dylib */; };
+		317813771D179CE2008A5DC9 /* libGLEW.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 317813761D179CE2008A5DC9 /* libGLEW.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,8 @@
 /* Begin PBXFileReference section */
 		3178136A1D178257008A5DC9 /* ctest1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = ctest1; sourceTree = BUILT_PRODUCTS_DIR; };
 		3178136D1D178257008A5DC9 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		317813741D1798BF008A5DC9 /* libglfw3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw3.dylib; path = ../../../../../../usr/local/Cellar/glfw3/3.1.2/lib/libglfw3.dylib; sourceTree = "<group>"; };
+		317813761D179CE2008A5DC9 /* libGLEW.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.dylib; path = ../../../../../../usr/local/Cellar/glew/1.13.0/lib/libGLEW.dylib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +36,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				317813751D1798BF008A5DC9 /* libglfw3.dylib in Frameworks */,
+				317813771D179CE2008A5DC9 /* libGLEW.dylib in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -41,6 +47,8 @@
 		317813611D178257008A5DC9 = {
 			isa = PBXGroup;
 			children = (
+				317813761D179CE2008A5DC9 /* libGLEW.dylib */,
+				317813741D1798BF008A5DC9 /* libglfw3.dylib */,
 				3178136C1D178257008A5DC9 /* ctest1 */,
 				3178136B1D178257008A5DC9 /* Products */,
 			);
@@ -207,6 +215,15 @@
 		317813721D178257008A5DC9 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw3/3.1.2/include,
+					/usr/local/Cellar/glew/1.13.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw3/3.1.2/lib,
+					/usr/local/Cellar/glew/1.13.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -214,6 +231,15 @@
 		317813731D178257008A5DC9 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Cellar/glfw3/3.1.2/include,
+					/usr/local/Cellar/glew/1.13.0/include,
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					/usr/local/Cellar/glfw3/3.1.2/lib,
+					/usr/local/Cellar/glew/1.13.0/lib,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
