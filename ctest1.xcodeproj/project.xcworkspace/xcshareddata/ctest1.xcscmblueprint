@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "04946221C4658DF2A3206EDDE478A9FF5B05E19E",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "04946221C4658DF2A3206EDDE478A9FF5B05E19E" : 0,
+    "8C2370B1D74E6CC2ADEE47EEDB2EF24D9D494192" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "0CC960CB-EA38-4911-92A9-97E45EFD58D9",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "04946221C4658DF2A3206EDDE478A9FF5B05E19E" : "ctest1\/",
+    "8C2370B1D74E6CC2ADEE47EEDB2EF24D9D494192" : "ctest1\/ctest1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "ctest1",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "ctest1.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xinglianfly\/learnopengl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "04946221C4658DF2A3206EDDE478A9FF5B05E19E"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xinglianfly\/learnopengl.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "8C2370B1D74E6CC2ADEE47EEDB2EF24D9D494192"
+    }
+  ]
+}
